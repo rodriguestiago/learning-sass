@@ -4,7 +4,6 @@ $color: #fff;
 @mixin text-center {
     text-align: center;
 }
-
 body {
     background: -webkit-linear-gradient(left, rgb(22, 135, 237), rgb(50, 134, 217));
     background: linear-gradient(to right, rgb(22, 135, 237), rgb(50, 134, 217));
@@ -80,6 +79,8 @@ h1{
     position: $position;
     top: 250px;
 }
+
+// grid with 4 paragraphes
 .posts {
         display: grid;
         grid-template-columns: 700px 700px;
@@ -118,6 +119,8 @@ h1{
         width: 200px;
         height: 70px;
 }
+
+//div images
 .partners{
         width: 100%;
         height: 400px;
@@ -173,7 +176,7 @@ h1{
         top: 300px;
         img{
             float: left;
-            width: 350px;
+            width: 400px;
             height: 140px;
             margin-left: 100px;
             margin-top: -200px;
