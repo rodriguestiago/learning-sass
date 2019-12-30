@@ -197,6 +197,7 @@ h1{
     border: none;
     position: $position;
     top: 70px;
+    outline: none;
 }
 .bottom{
     background-color: $color;
@@ -204,11 +205,11 @@ h1{
     .btn-2{
         @include btn;
         background-color: #165882;
-        margin-left: (100/4)*1%;
+        margin-left: (100/4)*1%;    
     }
     .btn-3{
         @include btn;
-        background-color: #165882;
+        background-color: #165882;    
     }
     .btn-4{
         @include btn;
