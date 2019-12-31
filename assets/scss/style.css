@@ -24,12 +24,13 @@ body {
     color: #fff;
     font-size: 1.2em;
     padding-right: 60px; }
-  .main-menu ul .fa-user {
-    color: #fff;
-    font-size: 20px;
-    float: right;
-    margin-right: 10px;
-    margin-top: 5px; }
+
+.fa-user {
+  color: #fff;
+  font-size: 20px;
+  float: right;
+  margin-right: 120px;
+  margin-top: -50px; }
 
 .header-img img {
   position: absolute;
@@ -55,7 +56,8 @@ h1 {
   top: 200px;
   margin: 0 auto;
   display: block;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: none; }
 
 .first-p {
   width: 100%;
@@ -221,11 +223,11 @@ footer {
       padding-left: 20px;
       border-right: 4px dotted #fff;
       border-width: thin; }
-    footer .bottom-menu ul .copyright {
-      color: #fff;
-      font-size: 0.8em;
-      float: right;
-      margin-right: 100px;
-      margin-top: -2px; }
+  footer .bottom-menu .copyright {
+    color: #fff;
+    font-size: 0.8em;
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px; }
 
 /*# sourceMappingURL=style.css.map */

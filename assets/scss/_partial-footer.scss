@@ -22,13 +22,17 @@ footer{
             border-right: 4px dotted $color;
             border-width: thin;
             }
-            .copyright{
+            
+        }
+        .copyright{
                 color:$color;
                 font-size: 0.8em;
                 float: right;
                 margin-right: 100px;
-                margin-top: -2px;
+                margin-top: -40px;
             }
-        }
+        
+        
+        
     }
 }
